@@ -164,7 +164,7 @@ client.once('ready', () => {
   setupSchedule();
   
   // Optional: Send a test message on startup (comment out if you don't want this)
-  // sendCountdownMessage();
+  sendCountdownMessage();
 });
 
 // Error handling
